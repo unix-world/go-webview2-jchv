@@ -1,2 +1,4 @@
 v. 20240929
 github.com/jchv/go-webview2 @ 20221223
+
+OS: Windows only !
