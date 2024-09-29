@@ -1,5 +1,7 @@
 package main
 
+// GOOS=windows GOARCH=amd64 go build ./cmd/demo/main.go
+
 import (
 	"log"
 
