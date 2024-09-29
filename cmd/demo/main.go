@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/jchv/go-webview2"
+	webview2 "github.com/unix-world/go-webview2-jchv"
 )
 
 func main() {
@@ -11,7 +11,7 @@ func main() {
 		Debug:     true,
 		AutoFocus: true,
 		WindowOptions: webview2.WindowOptions{
-			Title:  "Minimal webview example",
+			Title:  "Minimal webview2 example",
 			Width:  800,
 			Height: 600,
 			IconId: 2, // icon resource id
@@ -19,7 +19,7 @@ func main() {
 		},
 	})
 	if w == nil {
-		log.Fatalln("Failed to load webview.")
+		log.Fatalln("Failed to load webview2.")
 	}
 	defer w.Destroy()
 	w.SetSize(800, 600, webview2.HintFixed)

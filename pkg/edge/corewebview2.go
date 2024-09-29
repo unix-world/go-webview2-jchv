@@ -8,9 +8,8 @@ import (
 	"runtime"
 	"unsafe"
 
-	"github.com/jchv/go-webview2/internal/w32"
-
-	"github.com/jchv/go-webview2/webviewloader"
+	"github.com/unix-world/go-webview2-jchv/internal/w32"
+	"github.com/unix-world/go-webview2-jchv/webviewloader"
 	"golang.org/x/sys/windows"
 )
 
